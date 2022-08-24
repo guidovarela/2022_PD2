@@ -1,0 +1,83 @@
+*{
+    padding: 0;
+    margin: 0; 
+    box-sizing: border-box; 
+  }
+  html{
+     font-family: Arial, Helvetica, sans-serif; 
+     font-size: 16px;
+  }
+
+  .main-container{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+
+  .header{
+    background: rgb(30, 74, 234);
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    }
+    .header .logo{
+        width:20%;
+        order: 1
+    }
+    .header .search{
+        order: 1;
+        }
+
+  /* flexbox */
+
+  .flex-cont{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    align-items: stretch;
+  }
+
+  /* Modelo de caja -> width + border + padding */
+  /* Para mejorar el Box model, usamos box-sizing:border-box */
+
+  .flex-item{
+    width:22%;
+    background: crimson;
+    border: 2px solid;
+    padding: 1.5em;
+    /* box-sizing: border-box; */
+    }
+    .flex-item:nth-child(5){
+        background: rgb(19, 137, 31);
+        order:1;
+    }
+    .flex-item:nth-child(8){
+        order:-10;
+    }
+
+
+
+  /* Contenido */
+
+  .cajas{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    }
+
+    .cajas-img, .cajas-titulos{
+        /* width: 60%; */
+        margin: 20px 0;
+        }
+        .cajas-img img{
+            width: 100%;
+        }
+    
+        .cajas-titulos{
+            border-bottom: 2px solid;
+        }
+
+    .cajas article{
+        display: flex;
+    }
