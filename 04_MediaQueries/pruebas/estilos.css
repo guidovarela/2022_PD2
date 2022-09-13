@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Open+Sans');
+
+body{
+	margin: 0;
+	padding: 0;
+	font-family: "Open Sans";
+}
+#contenedor{
+	width: 90%;
+	margin: 0 auto;
+	display: flex;
+}
+.primero{
+	background: rgb(207,0,15);
+	width: 30%;
+	padding: 1.5%;
+	
+}
+.segundo{
+	background: rgb(34,167,240);
+	width: 30%;
+	padding: 1.5%;
+	box-sizing: border-box;
+	
+}
+.tercero{
+	background: rgb(38,166,91);
+
+	width: 30%;
+	padding: 1.5%;
+	box-sizing: border-box;
+}
+article img{width: 100%}
+
+/*Media Queries*/
+/* Breakpoints o cortes */
+/* D. Extra Grandes: desde 1025px hasta 1400px*/
+@media screen and (min-width:1025px) and (max-width:1400px){
+
+}
+
+/* D. Grandes: desde 769px hasta 1024px*/
+@media screen and (min-width: 769px) and (max-width:1024px){
+
+}
+
+/* D. Medianos: desde 581px hasta de 768px */
+@media screen and (min-width: 581px) and (max-width: 768px){
+
+}
+
+/* D. Pequeños> desde 0 hasta 580px */
+@media screen and (min-width:0px)  and (max-width: 580px){
+	
+}
+
+
+
+
+
+
+
+
+/*Dispositivos Grandes - Large*/
+/*los dispositivos para CSS son: screen / handheld / print / braille*/
+@media screen and (max-width:1200px) and (min-width:900px){
+	body{background-color: rgb(255, 162, 0);}
+	#contenedor{
+		justify-content: space-between;
+	}
+}
+
+/*Dispositivos Medianos*/
+@media screen and (max-width:768px) and (min-width:577px){
+	body{background-color: blueviolet;}
+
+	#contenedor{
+		flex-wrap: wrap;
+	}
+	.primero{
+		width: 100%;
+		padding: 3%;
+	}
+	.img{
+		max-height: 250px;
+		overflow: hidden;
+	}
+	.segundo,.tercero{
+		width: 50%;
+		padding: 3%;
+	}
+
+
+}
+
+/*Disp. Pequeños*/
+@media screen and (max-width:576px) and (min-width:0px){
+	body{background-color: darkgreen;}
+	
+	#contenedor{
+		width: 100%;
+		flex-direction: column ;
+	}
+	.primero,.segundo,.tercero{
+		width: 100%;
+		margin-bottom: 20px;
+		padding: 3%;
+	}
+	.tercero{margin-bottom: 0;}
+
+	.img{
+		max-height: 250px;
+		overflow: hidden;
+	}
+}
