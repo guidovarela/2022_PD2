@@ -7,6 +7,79 @@ div{
 	margin: 50px auto;
 }
 
+/* Instancia inicial */
+.uno{
+	transition-duration: 2s;
+	transition-delay: 0s;
+	transition-timing-function: ease-in-out;
+	transition-property: all;
+	
+}
+/* instancia final */
+.uno:hover{
+		background: crimson;
+		border-radius:50%;
+	}
+	.btn1{
+		transition: 2s all ease 0s;
+	}
+	.btn1:active{
+		background: blue;
+		color: white;
+	}
+
+
+	/* problemas en las transiciones */
+	#check1:checked{
+		opacity: 0.1;
+	}
+
+	#search,.btn1{
+		padding:20px;
+		border: none;
+		border-radius: 10px;
+		background: rgb(197, 110, 11);
+	}
+	#search:focus{
+		background: linear-gradient(red, blue);
+	}
+
+	main div:nth-child(4){
+		width: 100%;
+	}
+
+
+
+/* transform */
+
+/* scale(x,y) / translate(x,y) / skew(x,y) / rotate(deg) */
+
+.dos{
+	transition: 3s;
+	}
+
+	.dos:hover{
+		transform: rotateX(45deg);
+	}
+
+.elina{
+	overflow: hidden;
+	}
+	.elina img{
+		transform: translateX(-50px);
+		transition: 2s;
+		}
+		.elina img:hover{
+			transform: scale(1.2) rotate(10deg);
+		}
+
+.tres{
+	box-shadow: 0 0 20px 5px rgba(0,0,0,0.4);
+	transition: 2s;
+	}
+	.tres:hover{
+		box-shadow: 0 0 30px 10px rgba(0,0,0,0.9);
+	}
 
 
 
