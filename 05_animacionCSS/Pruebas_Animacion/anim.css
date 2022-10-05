@@ -1,0 +1,93 @@
+html{
+    font-family: "Montserrat";
+}
+
+.principal{
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: solid;
+}
+
+
+/* 1) Definir la animacion por keyframes (por progresos) */
+
+
+
+@keyframes animOpacity1 {
+    /* instancia inicial */
+    from {
+        opacity:1;
+    }
+    /* instancia final */
+    to{
+        opacity: 0;
+    }
+}
+
+@keyframes animLatido1 {
+    0%{transform: scale(1)}
+    50%{transform: scale(1.25)}
+    100%{transform: scale(1)}
+}
+
+@keyframes animRotacion1 {
+    0%{transform: translate(0) rotate(0)}
+    100%{transform: translate(1000px) rotate(360deg)}
+}
+
+
+.logo img{
+    animation-name: animLatido1;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 0.5;
+    transform-origin: center;
+    /* border: solid; */
+    }
+
+.logo img{
+    animation-name: animRotacion1;
+    animation-duration: 2s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transform-origin: center;
+    /* border: solid; */
+    }
+    .logo img:hover{
+        animation-play-state: paused;
+        cursor:wait;
+    }
+
+
+.data{
+    animation-name: animOpacity1;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animTipitoGif_1 {
+    0%{transform: translateX(-800px);}
+    100%{transform: translateX(800px);}
+}
+@keyframes animTipitoGif_2 {
+    0%{transform: translateX(-800px);}
+    100%{transform: translateX(-100px);}
+}
+    .running{
+        display: flex;
+    }
+    .running img{
+        animation-name: animTipitoGif_1;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        }
+    .running p{
+        animation-name: animTipitoGif_2;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+        }

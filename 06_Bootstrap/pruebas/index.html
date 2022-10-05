@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+
+    <!-- Bootstrap -->
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    
+    <div class="container bg1">
+        <h1>Esto es un contenedor responsive </h1>
+    </div>
+    <div class="header2 container-fluid bg2">
+        <p>esto es un container -fluid, o sea, ancho 100%</p>
+    </div>
+
+    <div class="container-fluid bg3">
+        <div class="container bg-white">
+            Containers anidados
+        </div>
+    </div>
+
+    <div class="container bg3">
+        <div class="container-fluid bg-white caja1">
+            Containers anidados
+        </div>
+    </div>
+
+    <!-- Sistema de grillas -->
+    <!-- .row
+            .col
+            .col-nroColumna
+            .col-breakpoint-nroColumna
+         -->
+
+    <section class="contenido1 container">
+        <h2>Sistema de grillas (.row + .col)</h2>
+        <!-- .row es Flex-container y .col es item -->
+        
+        <div class="row">
+            <div class="col">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, omnis accusantium vel voluptatem libero tempore doloremque ipsa minus dignissimos dicta voluptatibus? Quam ipsam officiis blanditiis sapiente dolorem odit optio corrupti!</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, omnis accusantium vel voluptatem libero tempore doloremque ipsa minus dignissimos dicta voluptatibus? Quam ipsam officiis blanditiis sapiente dolorem odit optio corrupti!</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, omnis accusantium vel voluptatem libero tempore doloremque ipsa minus dignissimos dicta voluptatibus? Quam ipsam officiis blanditiis sapiente dolorem odit optio corrupti!</p>
+            </div>
+            <div class="col">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci qui reiciendis amet obcaecati deserunt consectetur molestiae voluptatibus expedita odit, iste repudiandae beatae numquam animi quidem autem. Eum a vitae perspiciatis?</p>
+            </div>
+        </div>
+
+
+        <h2>Columnas de anchos variables</h2>
+        <!-- La grilla de Bootstrap es de hasta 12 columnas -->
+
+        <div class="row bg2">
+            <div class="col-6">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate dolores cum esse ducimus ratione molestias impedit debitis! Quisquam soluta molestiae a fugiat delectus rem quaerat odio, facere, quam, et laudantium?</p>
+            </div>
+            <div class="col-5">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti sequi animi quas, a repudiandae quos sunt perspiciatis ipsa vero, ipsam, magni molestiae beatae tempora ratione deserunt consequatur quaerat quidem explicabo!</p>
+            </div>
+            <!-- <div class="col-1 bg3"></div> -->
+            <div class="col-1 bg1">
+                
+            </div>
+        </div>
+
+        <h2>Columnas Responsive</h2>
+
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="bg1">
+                    <h3>Noticias 1</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit doloremque maiores quos minima quam, deleniti impedit amet ullam earum repellat ducimus distinctio, sunt, dolorem illum officiis. A, exercitationem incidunt.</p>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg3">
+                <h3>Noticias 2</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit doloremque maiores quos minima quam, deleniti impedit amet ullam earum repellat ducimus distinctio, sunt, dolorem illum officiis. A, exercitationem incidunt.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg1">
+                <h3>Noticias 3</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit doloremque maiores quos minima quam, deleniti impedit amet ullam earum repellat ducimus distinctio, sunt, dolorem illum officiis. A, exercitationem incidunt.</p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 bg3">
+                <h3>Noticias 4</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi reprehenderit doloremque maiores quos minima quam, deleniti impedit amet ullam earum repellat ducimus distinctio, sunt, dolorem illum officiis. A, exercitationem incidunt.</p>
+            </div>
+
+        </div>
+
+
+
+
+    </section>
+    
+
+    <!-- Bootstrap -->
+    <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+</body>
+</html>

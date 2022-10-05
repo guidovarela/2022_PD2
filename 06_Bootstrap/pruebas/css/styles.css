@@ -1,0 +1,22 @@
+/* Bootstrap utiliza la fuente Open Sans */
+
+.bg1{
+    background: rgb(235, 158, 26);
+}
+.bg2{
+    background: rgb(235, 92, 26);
+}
+.bg3{
+    background: rgb(12, 122, 47);
+}
+
+.caja1{
+    text-align: center;
+}
+.noticia3{
+    margin-right: 10px;
+}
+/* 
+@media (max-width:580px){
+    *{padding: 20px;}
+}  */
