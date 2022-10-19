@@ -12,7 +12,7 @@
 
 .banner{
     background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
-    height: 250px;
+   
     /* margin-bottom: 10em; */
 }
 
@@ -27,3 +27,7 @@
     background: #1b222a;
 }
 
+#navbarNav{
+    /* background: tomato; */
+    text-align: right;
+}
