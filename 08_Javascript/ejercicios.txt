@@ -1,0 +1,8 @@
+1) Realice un algoritmo que permita que un usuario cargue dos
+números enteros por teclado, de cómo salida, si son diferentes mostrar "Son diferentes!!, en caso que sean iguales, "Son iguales!".
+
+2) Realice un algoritmo que permita que un usuario cargue dos números enteros diferentes por teclado, y de cómo salida, el mayor de ambos.
+
+3) Realice un algoritmo que permita que un usuario cargue dos números enteros por teclado, y de cómo salida, los números ordenados en forma ascendente.
+
+4) Realice un algoritmo que permita que un usuario cargue dos números por teclado, y de cómo salida, la suma de ambos.
