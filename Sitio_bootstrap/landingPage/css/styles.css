@@ -1,4 +1,8 @@
 
+html{
+    scroll-behavior: smooth;
+}
+
 .header1{
     background: #00aeac;
 }
@@ -30,4 +34,13 @@
 #navbarNav{
     /* background: tomato; */
     text-align: right;
+}
+
+
+/* Form */
+#contacto{
+    background: url("https://picsum.photos/seed/picsum/1000/2300");
+    background-size: 100%;
+    background-position: center;
+    
 }
