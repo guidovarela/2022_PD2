@@ -1,0 +1,5 @@
+Array
+2- Crear un array llamado *meses* y que almacene el nombre de los meses del año.
+Mostrar por consola la cantidad, y luego, los nombres de cada uno de los meses
+
+3- Crear un array de elementos que contenga nombres y posteriormente agregar más elementos por medio del método “push”
